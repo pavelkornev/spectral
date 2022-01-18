@@ -8,7 +8,7 @@ import {
   RulesetDefinition,
   RulesetOverridesDefinition,
 } from './types';
-import { assertValidRuleset } from './validation';
+import { assertValidRuleset } from './validation/index';
 import { mergeRule } from './mergers/rules';
 import { DEFAULT_PARSER_OPTIONS, getDiagnosticSeverity } from '..';
 import { mergeRulesets } from './mergers/rulesets';
